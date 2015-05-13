@@ -1,0 +1,4 @@
+{"class_name":"Entity","version":0,"migrationversion_id":1}
+{"class_name":"Session","version":0,"migrationversion_id":2}
+{"class_name":"LogAction","version":0,"migrationversion_id":3}
+{"migrationversion_id":4,"class_name":"ConfigBase","version":1}

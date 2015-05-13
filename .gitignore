@@ -1,0 +1,5 @@
+*data/*csv
+*data/*db
+*.log
+.DS_Store
+.idea
