@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require_relative '../dependencies'
-require 'QooxView'
+require 'bundler/setup'
+require 'qooxview'
 
 DEBUG_LVL=2
 

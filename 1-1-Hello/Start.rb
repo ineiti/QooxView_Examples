@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'bundler/setup'
-require 'QooxView'
+require 'qooxview'
 
 class Welcome < View
   def layout

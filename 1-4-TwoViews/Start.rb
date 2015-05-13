@@ -3,8 +3,8 @@
 # Show everything
 DEBUG_LVL=5
 
-require_relative '../dependencies'
-require 'QooxView'
+require 'bundler/setup'
+require 'qooxview'
 
 # Don't ask for a login (default action of Welcome-View)
 Welcome.nologin

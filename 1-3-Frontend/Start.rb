@@ -2,9 +2,9 @@
 
 
 DEBUG_LVL=5
-CONFIG_FILE="config.yaml"
-require_relative '../dependencies'
-require 'QooxView'
+CONFIG_FILE='config.yaml'
+require 'bundler/setup'
+require 'qooxview'
 
 class Welcome < View
   def layout

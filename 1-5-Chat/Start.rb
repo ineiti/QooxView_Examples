@@ -4,8 +4,8 @@
 # join in and chose a name
 # The conversation shows the last 10 messages, without scrolling
 
-require_relative '../dependencies'
-require 'QooxView'
+require 'bundler/setup'
+require 'qooxview'
 
 class Welcome < View
   def layout
