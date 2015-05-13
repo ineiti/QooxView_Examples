@@ -1,1 +1,0 @@
-{"configbase_id":1,"functions":[],"locale_force":"fr","debug_lvl":0,"version_local":"orig","welcome_text":"Welcome to Profeda","block_size":4096,"max_upload_size":65536,"dputs_logfile":"/var/log/gestion/events.log","dputs_show_time":["min"],"dputs_silent":["false"],"dputs_terminal_width":160,"openprint_simul":["false"],"openprint_search":".*"}
