@@ -1,4 +1,4 @@
-Some examples for the QooxView Framework
+Some examples for the https://github.com/ineiti/QooxView Framework
 
 # Section 0 - General files
 
@@ -48,6 +48,6 @@ Showing a long list that goes further than the screen
 
 Used to test the display-resizing
 
-=== Yet to be done
+# Yet to be done
 
 Examples of using the session-ids and how to use the Entities!
