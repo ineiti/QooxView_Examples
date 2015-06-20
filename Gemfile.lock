@@ -1,11 +1,36 @@
-PATH
-  remote: ../HelperClasses
+GEM
+  remote: https://rubygems.org/
   specs:
+    activemodel (3.1.1)
+      activesupport (= 3.1.1)
+      builder (~> 3.0.0)
+      i18n (~> 0.6)
+    activerecord (3.1.1)
+      activemodel (= 3.1.1)
+      activesupport (= 3.1.1)
+      arel (~> 2.2.1)
+      tzinfo (~> 0.3.29)
+    activesupport (3.1.1)
+      multi_json (~> 1.0)
+    arel (2.2.1)
+    builder (3.0.4)
+    chunky_png (1.3.4)
+    docsplit (0.7.6)
+    gettext (3.0.0)
+      locale (>= 2.0.5)
+      text
     helper_classes (0.3.1)
-
-PATH
-  remote: ../QooxView
-  specs:
+    i18n (0.6.0)
+    iconv (1.0.3)
+    json (1.8.2)
+    locale (2.0.8)
+    multi_json (1.0.3)
+    net-ldap (0.5.1)
+    parseconfig (0.5.2)
+    pdf-core (0.5.1)
+    prawn (2.0.1)
+      pdf-core (~> 0.5.1)
+      ttfunk (~> 1.4.0)
     qooxview (1.9.9)
       activemodel (= 3.1.1)
       activerecord (= 3.1.1)
@@ -31,39 +56,6 @@ PATH
       sqlite3 (= 1.3.10)
       text (= 1.2.3)
       ttfunk (= 1.4.0)
-
-GEM
-  remote: https://rubygems.org/
-  specs:
-    activemodel (3.1.1)
-      activesupport (= 3.1.1)
-      builder (~> 3.0.0)
-      i18n (~> 0.6)
-    activerecord (3.1.1)
-      activemodel (= 3.1.1)
-      activesupport (= 3.1.1)
-      arel (~> 2.2.1)
-      tzinfo (~> 0.3.29)
-    activesupport (3.1.1)
-      multi_json (~> 1.0)
-    arel (2.2.1)
-    builder (3.0.4)
-    chunky_png (1.3.4)
-    docsplit (0.7.6)
-    gettext (3.0.0)
-      locale (>= 2.0.5)
-      text
-    i18n (0.6.0)
-    iconv (1.0.3)
-    json (1.8.2)
-    locale (2.0.8)
-    multi_json (1.0.3)
-    net-ldap (0.5.1)
-    parseconfig (0.5.2)
-    pdf-core (0.5.1)
-    prawn (2.0.1)
-      pdf-core (~> 0.5.1)
-      ttfunk (~> 1.4.0)
     rqrcode (0.4.2)
     rqrcode-with-patches (0.5.4)
       chunky_png
@@ -78,5 +70,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  helper_classes!
-  qooxview!
+  qooxview (= 1.9.9)
