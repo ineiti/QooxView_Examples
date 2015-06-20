@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'qooxview', '1.9.9'
+gem 'qooxview', '1.9.10-1'
