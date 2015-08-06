@@ -2,7 +2,7 @@
 
 
 DEBUG_LVL=5
-CONFIG_FILE='config.yaml'
+$config_file='config.yaml'
 require 'bundler/setup'
 require 'qooxview'
 
